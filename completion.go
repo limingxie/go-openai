@@ -56,6 +56,7 @@ var disabledModelsForEndpoints = map[string]map[string]bool{
 		GPT432K0314:       true,
 	},
 	"/chat/completions": {
+		GPT3Dot5Turbo:           true,
 		CodexCodeDavinci002:     true,
 		CodexCodeCushman001:     true,
 		CodexCodeDavinci001:     true,
